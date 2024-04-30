@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/recCard"
+    android:layout_marginStart="12dp"
+    android:layout_marginEnd="12dp"
+    android:layout_marginHorizontal="10dp"
+    android:layout_marginVertical="10dp"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="8dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="66dp">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/recImage"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="20dp"
+            android:padding="8dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/uploadimage"
+            app:shapeAppearanceOverlay="@style/roundedImageViewRound" />
+
+        <TextView
+            android:id="@+id/recOwner"
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="22dp"
+            android:layout_marginTop="20dp"
+            android:layout_toEndOf="@+id/recImage"
+            android:fontFamily="@font/bree_serif"
+            android:gravity="center"
+            android:text="Owner Name"
+            android:textAlignment="center"
+            android:textColor="@color/peach"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/recType"
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="20dp"
+            android:layout_toEndOf="@+id/recOwner"
+            android:fontFamily="@font/bree_serif"
+            android:gravity="center"
+            android:text="Type"
+            android:textAlignment="center"
+            android:textColor="@color/peach"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/recSex"
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:layout_below="@+id/recOwner"
+            android:layout_marginStart="20dp"
+            android:layout_toEndOf="@+id/recImage"
+            android:fontFamily="@font/bree_serif"
+            android:maxLines="0"
+            android:text="Sex"
+            android:textAlignment="center"
+            android:textColor="@color/peach"
+            android:textSize="8sp" />
+
+        <TextView
+            android:id="@+id/recAge"
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:layout_below="@+id/recOwner"
+            android:layout_marginStart="20dp"
+            android:layout_toEndOf="@+id/recImage"
+            android:fontFamily="@font/bree_serif"
+            android:maxLines="0"
+            android:text="Age"
+            android:textAlignment="center"
+            android:textColor="@color/peach"
+            android:textSize="8sp" />
+
+        <TextView
+            android:id="@+id/recPet"
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:layout_below="@+id/recOwner"
+            android:layout_marginStart="20dp"
+            android:layout_toEndOf="@+id/recImage"
+            android:fontFamily="@font/bree_serif"
+            android:maxLines="0"
+            android:text="Pet Name"
+            android:textAlignment="center"
+            android:textColor="@color/peach"
+            android:textSize="8sp" />
+
+        <TextView
+            android:id="@+id/recColor"
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:layout_below="@+id/recOwner"
+            android:layout_marginStart="20dp"
+            android:layout_toEndOf="@+id/recImage"
+            android:fontFamily="@font/bree_serif"
+            android:maxLines="0"
+            android:text="Color"
+            android:textAlignment="center"
+            android:textColor="@color/peach"
+            android:textSize="8sp" />
+
+        <TextView
+            android:id="@+id/recSpec"
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:layout_below="@+id/recOwner"
+            android:layout_marginStart="20dp"
+            android:layout_toEndOf="@+id/recImage"
+            android:fontFamily="@font/bree_serif"
+            android:maxLines="0"
+            android:text="Special Notes"
+            android:textAlignment="center"
+            android:textColor="@color/peach"
+            android:textSize="8sp" />
+
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

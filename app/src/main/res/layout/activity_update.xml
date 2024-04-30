@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background3"
+    android:orientation="vertical"
+    tools:context=".UpdateActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal"
+            android:padding="20dp"
+            android:background="@drawable/peach_boarder">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Update Pet Data"
+                android:textSize="25sp"
+                android:textAlignment="center"
+                android:textColor="@color/peach"
+                android:fontFamily="@font/bree_serif"/>
+
+            <ImageView
+                android:layout_width="140dp"
+                android:layout_height="104dp"
+                android:src="@drawable/uploadimage"
+                android:layout_gravity="center"
+                android:id="@+id/updateImage"
+                android:layout_marginTop="10dp"
+                android:scaleType="fitXY"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/updateOwner"
+                android:background="@drawable/peach_boarder"
+                android:layout_marginTop="15dp"
+                android:padding="16dp"
+                android:hint="Owner name"
+                android:gravity="start|center_vertical"
+                android:textColor="@color/peach"
+                android:fontFamily="@font/bree_serif"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/updatePet"
+                android:background="@drawable/peach_boarder"
+                android:layout_marginTop="15dp"
+                android:padding="16dp"
+                android:hint="Pet name"
+                android:gravity="start|center_vertical"
+                android:textColor="@color/peach"
+                android:fontFamily="@font/bree_serif"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/updateType"
+                android:background="@drawable/peach_boarder"
+                android:layout_marginTop="15dp"
+                android:padding="16dp"
+                android:hint="Type"
+                android:gravity="start|center_vertical"
+                android:textColor="@color/peach"
+                android:fontFamily="@font/bree_serif"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/updateAge"
+                android:background="@drawable/peach_boarder"
+                android:layout_marginTop="15dp"
+                android:padding="16dp"
+                android:hint="Age"
+                android:gravity="start|center_vertical"
+                android:textColor="@color/peach"
+                android:fontFamily="@font/bree_serif"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/updateSex"
+                android:background="@drawable/peach_boarder"
+                android:layout_marginTop="15dp"
+                android:padding="16dp"
+                android:hint="Sex"
+                android:gravity="start|center_vertical"
+                android:textColor="@color/peach"
+                android:fontFamily="@font/bree_serif"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/updateColor"
+                android:background="@drawable/peach_boarder"
+                android:layout_marginTop="15dp"
+                android:padding="16dp"
+                android:hint="Color"
+                android:gravity="start|center_vertical"
+                android:textColor="@color/peach"
+                android:fontFamily="@font/bree_serif"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/updateNotes"
+                android:background="@drawable/peach_boarder"
+                android:layout_marginTop="15dp"
+                android:padding="16dp"
+                android:hint="Special Notes"
+                android:gravity="start|center_vertical"
+                android:textColor="@color/peach"
+                android:fontFamily="@font/bree_serif"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Update"
+                android:id="@+id/updateButton"
+                android:fontFamily="@font/bree_serif"
+                android:layout_marginTop="15dp"
+                android:backgroundTint="@color/peach"
+                android:textColor="@color/white"
+                android:textSize="18sp"/>
+
+
+        </LinearLayout>
+
+
+
+
+    </androidx.cardview.widget.CardView>
+
+</ScrollView>
