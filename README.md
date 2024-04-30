@@ -1,5 +1,7 @@
 # Pet Care Service Mobile Application
 Introducing the Pet Care Service Mobile Application, your platform for linking pet owners with committed caregivers, guaranteeing the happiness and health of their beloved furry companions.
+#### App Name - Happy Tail Hub
+#### Development software - Android Studio
 # Featues
 ### Pet Owner
 1. Sign Up
